@@ -1,0 +1,15 @@
+{
+  "name": "codetest_kuflink",
+  "version": "1.0.0",
+  "description": "code test",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css --usePolling --polling-interval 500"
+  },
+  "author": "Miklos Feczko",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
